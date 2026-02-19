@@ -10,5 +10,14 @@
             </choice>
         </element>
         <element label="Email" max_length="100" name="email" type="string" mandatory="true"/>
+        <element choice="3" label="Branch" max_length="40" name="branch" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="ECE" sequence="1" value="ece"/>
+                <element inactive_on_update="false" label="EEE" sequence="2" value="eee"/>
+                <element inactive_on_update="false" label="MECH" sequence="3" value="mech"/>
+                <element inactive_on_update="false" label="IT" sequence="4" value="it"/>
+            </choice>
+        </element>
     </element>
 </database>

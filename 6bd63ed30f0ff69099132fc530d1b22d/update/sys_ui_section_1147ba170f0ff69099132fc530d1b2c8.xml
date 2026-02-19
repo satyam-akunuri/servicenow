@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="1147ba170f0ff69099132fc530d1b2c8" sys_domain="global" table="x_766729_student_0_student" version="3" view="">
+    <sys_ui_section caption="Student Information" section_id="1147ba170f0ff69099132fc530d1b2c8" sys_domain="global" table="x_766729_student_0_student" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
@@ -8,14 +8,98 @@
             <sys_id>dd47ba170f0ff69099132fc530d1b2ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_766729_student_0_student" sys_domain="global" view="Default view">1147ba170f0ff69099132fc530d1b2c8</sys_ui_section>
+            <sys_ui_section caption="Student Information" display_value="Student Information" name="x_766729_student_0_student" sys_domain="global" view="Default view">1147ba170f0ff69099132fc530d1b2c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 11:50:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 11:50:29</sys_created_on>
+            <sys_id>dd47ba170f0ff69099132fc530d1b2cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Information" display_value="Student Information" name="x_766729_student_0_student" sys_domain="global" view="Default view">1147ba170f0ff69099132fc530d1b2c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 11:50:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 11:50:29</sys_created_on>
+            <sys_id>dd47ba170f0ff69099132fc530d1b2d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Information" display_value="Student Information" name="x_766729_student_0_student" sys_domain="global" view="Default view">1147ba170f0ff69099132fc530d1b2c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 11:50:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 11:50:29</sys_created_on>
+            <sys_id>dd47ba170f0ff69099132fc530d1b2d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Information" display_value="Student Information" name="x_766729_student_0_student" sys_domain="global" view="Default view">1147ba170f0ff69099132fc530d1b2c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 11:50:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 11:50:29</sys_created_on>
+            <sys_id>dd47ba170f0ff69099132fc530d1b2d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Information" display_value="Student Information" name="x_766729_student_0_student" sys_domain="global" view="Default view">1147ba170f0ff69099132fc530d1b2c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 11:50:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 11:50:29</sys_created_on>
+            <sys_id>dd47ba170f0ff69099132fc530d1b2d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Information" display_value="Student Information" name="x_766729_student_0_student" sys_domain="global" view="Default view">1147ba170f0ff69099132fc530d1b2c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-19 11:50:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>branch</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-19 11:50:29</sys_created_on>
+            <sys_id>dd47ba170f0ff69099132fc530d1b2d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Student Information" display_value="Student Information" name="x_766729_student_0_student" sys_domain="global" view="Default view">1147ba170f0ff69099132fc530d1b2c8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-02-19 11:50:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Student Information</caption>
             <header>false</header>
             <name>x_766729_student_0_student</name>
             <roles/>
