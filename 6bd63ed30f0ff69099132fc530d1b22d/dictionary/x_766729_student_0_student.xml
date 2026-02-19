@@ -10,6 +10,7 @@
             </choice>
         </element>
         <element label="Email" max_length="100" name="email" type="string" mandatory="true"/>
+        <element label="Mobile Number" max_length="20" name="mobile_number" type="string"/>
         <element choice="3" label="Branch" max_length="40" name="branch" type="choice">
             <choice>
                 <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
