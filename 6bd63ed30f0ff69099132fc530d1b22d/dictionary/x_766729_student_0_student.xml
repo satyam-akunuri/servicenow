@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6c477a170f0ff69099132fc530d1b297" label="Student" max_length="40" name="x_766729_student_0_student" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element choice="3" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="100" name="email" type="string" mandatory="true"/>
     </element>
 </database>
