@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Student" language="en" table="x_766729_student_0_student">
+    <sys_documentation element="branch" label="Branch" language="en" table="x_766729_student_0_student">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>branch</element>
             <help/>
             <hint/>
-            <label>Student</label>
+            <label>Branch</label>
             <language>en</language>
             <name>x_766729_student_0_student</name>
-            <plural>Students</plural>
+            <plural>Branches</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-02-19 11:50:26</sys_created_on>
-            <sys_id>2c477a170f0ff69099132fc530d1b2ba</sys_id>
+            <sys_created_on>2026-02-19 12:55:32</sys_created_on>
+            <sys_id>562607d30f8ff69099132fc530d1b2f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Student</sys_name>
+            <sys_name>Branch</sys_name>
             <sys_package display_value="StudentApp" source="x_766729_student_0">6bd63ed30f0ff69099132fc530d1b22d</sys_package>
             <sys_policy/>
             <sys_scope display_value="StudentApp">6bd63ed30f0ff69099132fc530d1b22d</sys_scope>
-            <sys_update_name>sys_documentation_x_766729_student_0_student__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_766729_student_0_student_branch_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-02-19 11:50:26</sys_updated_on>
+            <sys_updated_on>2026-02-19 12:55:32</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
