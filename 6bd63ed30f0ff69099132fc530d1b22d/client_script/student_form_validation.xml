@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Client script to validate gender and branch fields before form submission</description>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>Student Form Validation</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    // Check if Gender field is empty or none
+    var gender = g_form.getValue('gender');
+    if (!gender || gender === '' || gender === 'none') {
+        g_form.showFieldMsg('gender', 'Gender is required. Please select a valid option.', 'error');
+        return false;
+    }
+    
+    // Check if Branch field is empty or none
+    var branch = g_form.getValue('branch');
+    if (!branch || branch === '' || branch === 'none') {
+        g_form.showFieldMsg('branch', 'Branch is required. Please select a valid option.', 'error');
+        return false;
+    }
+    
+    // If both validations pass, allow form submission
+    return true;
+}
+
+// Optional: Add onChange validation for real-time feedback
+function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) {
+        return;
+    }
+    
+    // Clear error messages when user makes a selection
+    if (control === 'gender' && newValue && newValue !== '' && newValue !== 'none') {
+        g_form.hideFieldMsg('gender');
+    }
+    
+    if (control === 'branch' && newValue && newValue !== '' && newValue !== 'none') {
+        g_form.hideFieldMsg('branch');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 13:10:00</sys_created_on>
+        <sys_id>student_form_validation_001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student Form Validation</sys_name>
+        <sys_package display_value="StudentApp" source="x_766729_student_0">6bd63ed30f0ff69099132fc530d1b22d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="StudentApp">6bd63ed30f0ff69099132fc530d1b22d</sys_scope>
+        <sys_update_name>sys_script_client_student_form_validation</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 13:10:00</sys_updated_on>
+        <table>x_766729_student_0_student</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

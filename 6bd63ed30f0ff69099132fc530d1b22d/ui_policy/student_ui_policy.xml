@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description>Make Gender and Branch fields mandatory for Student form</description>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[// Script to execute when condition is false]]></script_false>
+        <script_true><![CDATA[// Script to execute when condition is true
+g_form.setMandatory('gender', true);
+g_form.setMandatory('branch', true);]]></script_true>
+        <short_description>Student Form - Make Gender and Branch Mandatory</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 13:15:00</sys_created_on>
+        <sys_id>student_ui_policy_001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student Form - Make Gender and Branch Mandatory</sys_name>
+        <sys_package display_value="StudentApp" source="x_766729_student_0">6bd63ed30f0ff69099132fc530d1b22d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="StudentApp">6bd63ed30f0ff69099132fc530d1b22d</sys_scope>
+        <sys_update_name>sys_ui_policy_student_form_mandatory</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 13:15:00</sys_updated_on>
+        <table>x_766729_student_0_student</table>
+        <view/>
+    </sys_ui_policy>
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>gender</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 13:15:00</sys_created_on>
+        <sys_id>student_ui_policy_action_gender</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_policy display_value="Student Form - Make Gender and Branch Mandatory">student_ui_policy_001</sys_policy>
+        <sys_update_name>sys_ui_policy_action_gender</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 13:15:00</sys_updated_on>
+        <table>x_766729_student_0_student</table>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>branch</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 13:15:00</sys_created_on>
+        <sys_id>student_ui_policy_action_branch</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_policy display_value="Student Form - Make Gender and Branch Mandatory">student_ui_policy_001</sys_policy>
+        <sys_update_name>sys_ui_policy_action_branch</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 13:15:00</sys_updated_on>
+        <table>x_766729_student_0_student</table>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
