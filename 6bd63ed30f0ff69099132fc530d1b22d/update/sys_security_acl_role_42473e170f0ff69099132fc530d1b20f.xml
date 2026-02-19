@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 11:50:32</sys_created_on>
+        <sys_id>42473e170f0ff69099132fc530d1b20f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_766729_student_0_student.x_766729_student_0.user</sys_name>
+        <sys_package display_value="StudentApp" source="x_766729_student_0">6bd63ed30f0ff69099132fc530d1b22d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="StudentApp">6bd63ed30f0ff69099132fc530d1b22d</sys_scope>
+        <sys_security_acl display_value="x_766729_student_0_student">8247fa170f0ff69099132fc530d1b228</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_42473e170f0ff69099132fc530d1b20f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 11:50:32</sys_updated_on>
+        <sys_user_role display_value="x_766729_student_0.user" name="x_766729_student_0.user">77d63ed30f0ff69099132fc530d1b26c</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
